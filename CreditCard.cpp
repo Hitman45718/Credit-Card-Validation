@@ -49,11 +49,7 @@ int main()
 {
     string credit_card_no = GetCreditCardNumber();
     int add = AddEvenIndexedNumbers(credit_card_no) + AddOddIndexedNumbers(credit_card_no);
-
-    cout << AddEvenIndexedNumbers(credit_card_no) << endl;
-    cout << AddOddIndexedNumbers(credit_card_no) << endl;
-    cout << add << endl;
-
+    
     if (add % 10 == 0)
     {
         cout << "Your Credit Card number is valid" << endl;
